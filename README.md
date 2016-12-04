@@ -35,10 +35,10 @@ If you only want to run your application using the Spring Boot run, you need a `
  }
  ```
  
- ### View technology
- You can use either ``thymeleaf`` or ``jsp`` as your view technology. In order to use ``thymeleaf``, you must use the following as a dependency in ``build.gradle``
+### View technology
+You can use either ``thymeleaf`` or ``jsp`` as your view technology. In order to use ``thymeleaf``, you must use the following as a dependency in ``build.gradle``
  
- ```groovy
+```groovy
 compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 ```
 
